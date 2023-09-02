@@ -11,6 +11,7 @@ public class WordManager {
     }
 
     public void start(){
+        wordCRUD.loadFile();
         while(true){
             int menu = selectMenu();
             if(menu==0) break;
@@ -18,26 +19,22 @@ public class WordManager {
                 wordCRUD.listAll();
             }
             if(menu==2){
-                //수준별 단어
-                //wordCRUD.
+                wordCRUD.searchLevel();
             }
             if(menu==3){
-                //검색
-                //wordCRUD.
+                wordCRUD.searchWord();
             }
             if(menu==4){
                 wordCRUD.addItem();
             }
             if(menu==5){
-                //수정
                 wordCRUD.updateItem();
             }
             if(menu==6){
                 wordCRUD.deleteItem();
             }
             if(menu==7){
-                //파일 저장
-                //wordCRUD.
+                wordCRUD.saveFile();
             }
         }
     }
