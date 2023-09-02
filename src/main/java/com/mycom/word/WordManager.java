@@ -26,15 +26,14 @@ public class WordManager {
                 //wordCRUD.
             }
             if(menu==4){
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             }
             if(menu==5){
                 //수정
                 wordCRUD.updateItem();
             }
             if(menu==6){
-                //삭제
-                //wordCRUD.
+                wordCRUD.deleteItem();
             }
             if(menu==7){
                 //파일 저장
