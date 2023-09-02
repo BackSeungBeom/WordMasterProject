@@ -82,17 +82,6 @@ public class WordCRUD implements ICRUD{
         System.out.println("-------------------------------");
     }
 
-    @Override
-    public int update(Object obj) {
-        return 0;
-    }
-
-    @Override
-    public int delete(Object obj) {
-
-        return 0;
-    }
-
     public void deleteItem() {
         System.out.print("=> 삭제할 단어 검색 : ");
         String keyword = s.next();
@@ -107,11 +96,6 @@ public class WordCRUD implements ICRUD{
             System.out.println("단어가 삭제되었습니다.");
         }
         else System.out.println("취소되었습니다.");
-    }
-
-    @Override
-    public void selectOne(int id) {
-
     }
 
     public void loadFile() {
