@@ -11,9 +11,10 @@ public class WordCRUD implements ICRUD{
 
     WordCRUD(Scanner s) {
         list = new ArrayList<>();
-        this.s = this.s;
+        this.s = s;
     }
 
+    @Override
     public void listAll(){
         System.out.println("\n-------------------------------");
         for(int i=0; i<list.size(); i++){
