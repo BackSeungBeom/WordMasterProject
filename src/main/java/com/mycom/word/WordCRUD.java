@@ -14,7 +14,6 @@ public class WordCRUD implements ICRUD{
         this.s = s;
     }
 
-    @Override
     public void listAll(){
         System.out.println("\n-------------------------------");
         for(int i=0; i<list.size(); i++){
@@ -24,7 +23,6 @@ public class WordCRUD implements ICRUD{
         System.out.println("-------------------------------\n");
     }
 
-    @Override
     public Object add() {
         System.out.print("\n=> 난이도(1,2,3) & 새 단어 입력 : ");
         int level = s.nextInt();

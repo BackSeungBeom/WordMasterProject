@@ -14,6 +14,7 @@ public class Word {
         this.word = word;
         this.meaning = meaning;
     }
+
     public int getId() {
         return id;
     }
