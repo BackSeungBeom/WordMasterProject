@@ -1,4 +1,4 @@
-<img src="Screenshot/loadFile.PNG"/>
+<img src="Screenshot/loadFile.png"/>
 <img src="Screenshot/allList1.PNG"/>
 <img src="Screenshot/allList2.PNG"/>
 <img src="Screenshot/levelList.PNG"/>
